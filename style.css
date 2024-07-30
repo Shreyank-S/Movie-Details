@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 body {
@@ -34,18 +35,23 @@ nav {
 .search-container input button {
   padding: 5px 10px;
   border: none;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .search-container input {
   border-radius: 3px 0 0 3px;
+  padding: 6px;
+  font-size: 18px;
 }
 
 .search-container button {
+  margin-left: 7px;
   border-radius: 0 3px 3px 0;
   background: #db0000;
   cursor: pointer;
   transition: all 0.2s;
+  padding: 6px;
+  font-size: 18px;
 }
 
 .search-container button:hover {
@@ -105,6 +111,7 @@ main section {
   background: none;
   box-shadow: none;
   align-items: center;
+  font-size: 24px;
 }
 
 footer {
@@ -113,7 +120,7 @@ footer {
   color: #db0000;
   padding-block: 20px;
   margin-top: 40px;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 @media screen and (max-width: 950px) {
