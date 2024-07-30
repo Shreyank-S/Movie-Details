@@ -101,6 +101,9 @@ main section {
   text-align: center;
 }
 
+.movie-info strong {
+  font-size: 18px;
+}
 .movie-info p {
   font-size: 18px;
   margin-block: 16px;
